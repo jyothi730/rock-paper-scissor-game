@@ -1,6 +1,8 @@
-# 🪨 Rock Paper Scissors Game
+# Rock Paper Scissors Game
 
 A fun and interactive Rock Paper Scissors game built with **React**.
+<br/>
+Link: https://jyothi730.github.io/rock-paper-scissor-game/
 
 ## Features
 
@@ -52,6 +54,7 @@ A fun and interactive Rock Paper Scissors game built with **React**.
 
 - Icons from [react-icons](https://react-icons.github.io/react-icons/)
 - Images from [CCBP Assets](https://assets.ccbp.in/)
+
 
 
 
