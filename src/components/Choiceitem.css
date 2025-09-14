@@ -1,0 +1,43 @@
+.choice-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.choice-btn img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.choice-btn:hover img {
+  transform: scale(1.1);
+}
+
+.choices-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 12px; 
+}
+
+.choices-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px; 
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .choice-btn img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .choices-container {
+    gap: 25px;
+    max-width: 280px;
+  }
+}
